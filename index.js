@@ -37,7 +37,7 @@ async function startBot() {
     if (!sock.authState.creds.registered) {
         // Beri jeda 3 detik agar koneksi WebSocket siap terlebih dahulu
         setTimeout(async () => {
-            const phoneNumber = '628812478704';
+            const phoneNumber = '6285169952387';
             console.log(`Meminta kode pairing untuk nomor: ${phoneNumber}...`);
             try {
                 let code = await sock.requestPairingCode(phoneNumber);
